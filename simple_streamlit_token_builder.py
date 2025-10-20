@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 import streamlit as st
 
 st.set_page_config(page_title="Token JSON Builder (Simple)", page_icon="⚡", layout="centered")
-st.title("⚡ Token JSON Builder — đơn giản")
+st.title("⚡ Token JSON Builder")
 st.caption("Upload 2 file: access_token.json (long-lived user) và accounts.js (/me/accounts). Bấm nút để xuất tokens.json + vault files.")
 
 st.markdown("---")
